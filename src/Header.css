@@ -1,14 +1,37 @@
-.Header-logo {
-    animation: Header-logo-spin infinite 20s linear;
-    height: 50px;
-    margin-top: -0.4rem;
+.header-form, .header-ul {
+    padding-top: 10px;
 }
 
-@keyframes Header-logo-spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+.header-ul {
+    font-size: 20px;
 }
 
-.Navbar-custom {
-    padding-top: 15px;
+.header-logo-text {
+    margin-left: 5px;
+    color: #0275d8;
+    font-size: 32px;
+    font-family: 'Kavoon', cursive;
+}
+
+.header-form-ask-ques-span {
+    padding: 0px !important;
+    border: 0px !important;
+}
+
+.header-form-ask-ques-button {
+    background-color: #ffffff;
+    color: #0275d8;
+}
+
+.header-form-ask-ques-button:hover {
+    background-color: #f0f0f0;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+}
+
+.header-nav-li-icon {
+    vertical-align: middle;
+    margin: -5px 0px 0px 10px;
 }
